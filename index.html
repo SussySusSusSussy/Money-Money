@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema Financiero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="no-pc">
+  <h1>Estas en el lugar erróneo</h1>
+  <p>Este sitio web es exclusivo para computadora, intenta en tu pc del 1987</p>
+</div>
+
+<div id="app">
+
+  <header>
+    <h1>Panel Financiero</h1>
+    <button id="toggleTheme">Cambiar Tema</button>
+  </header>
+
+  <section class="card">
+    <h2>Configuración</h2>
+
+    <label>Pago por día:</label>
+    <input type="number" id="pagoDia">
+
+    <label>Ahorro actual:</label>
+    <input type="number" id="ahorro">
+
+    <h3>Suscripciones (USD)</h3>
+    <div id="subs"></div>
+    <button id="addSub">Agregar Suscripción</button>
+
+  </section>
+
+  <section class="card">
+    <h2>Sistema 1 - Costos</h2>
+    <p>Total USD: <span id="totalUSD">0</span></p>
+    <p>Total CRC: <span id="totalCRC">0</span></p>
+    <p id="estado1"></p>
+  </section>
+
+  <section class="card">
+    <h2>Sistema 2 - Proyección</h2>
+    <p>Días laborales restantes: <span id="diasRestantes">0</span></p>
+    <p>Ingreso proyectado: <span id="proyectado">0</span></p>
+    <p>Fondo 5%: <span id="fondo">0</span></p>
+  </section>
+
+  <section class="card">
+    <h2>Sistema 3 - Disponible</h2>
+    <p>Disponible final: <span id="disponible">0</span></p>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+<script src="secreto.js"></script>
+
+</body>
+</html>

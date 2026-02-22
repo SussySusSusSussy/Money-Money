@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #121212;
+    color: white;
+  }
+  
+  #no-pc {
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #1e1e1e;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input {
+    display: block;
+    margin: 5px 0 15px 0;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .light {
+    background: #f4f4f4;
+    color: black;
+  }
+  
+  .light .card {
+    background: white;
+  }
